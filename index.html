@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portal Buku Perancangan & Pengurusan Sesi 2026/2027 | SMK Seri Bintang Utama</title>
+  <title>Portal Buku Perancangan & Pengurusan Sesi 2026/2027 | SMK Sacred Heart</title>
   
   <!-- Premium Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,10 +24,10 @@
     <!-- Sidebar Navigation -->
     <aside class="sidebar">
       <div class="school-brand">
-        <div class="school-logo-mock">SBU</div>
+        <div class="school-logo-mock">SH</div>
         <div class="school-meta">
-          <h1 id="sidebar-school-name">SMK Seri Bintang U.</h1>
-          <span>Kod Sekolah: WEA0206</span>
+          <h1 id="sidebar-school-name">SMK Sacred Heart</h1>
+          <span>Buku Perancangan 2026</span>
         </div>
       </div>
       
@@ -42,36 +42,9 @@
             <i data-lucide="school"></i> Profil & Takwim
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" data-tab="kurikulum">
-            <i data-lucide="book-open"></i> Unit Kurikulum
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-tab="hem">
-            <i data-lucide="users"></i> Unit HEM
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-tab="kokurikulum">
-            <i data-lucide="trophy"></i> Unit Kokurikulum
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-tab="downloads">
-            <i data-lucide="folder-down"></i> Pusat Muat Turun
-          </a>
-        </li>
       </nav>
       
       <div class="sidebar-footer">
-        <div class="user-profile">
-          <div class="user-avatar">HI</div>
-          <div class="user-info">
-            <span class="user-name">Cikgu Hasnah Idris</span>
-            <span class="user-role">Guru Kanan Pentadbiran</span>
-          </div>
-        </div>
         <button class="theme-toggle-btn" id="theme-toggle">
           <i data-lucide="moon"></i> Mod Gelap
         </button>
@@ -112,86 +85,11 @@
           </div>
         </div>
         
-        <!-- Quick Statistics Row -->
-        <div class="stats-row">
-          <div class="glass-panel stat-card">
-            <div class="stat-icon pentadbiran">
-              <i data-lucide="users-round"></i>
-            </div>
-            <div class="stat-info">
-              <span class="stat-value" id="stat-total-staff">15</span>
-              <span class="stat-label">Jumlah Guru & AKP</span>
-            </div>
-          </div>
-          <div class="glass-panel stat-card">
-            <div class="stat-icon kurikulum">
-              <i data-lucide="graduation-cap"></i>
-            </div>
-            <div class="stat-info">
-              <span class="stat-value" id="stat-kurikulum">4</span>
-              <span class="stat-label">Peristiwa Kurikulum</span>
-            </div>
-          </div>
-          <div class="glass-panel stat-card">
-            <div class="stat-icon hem">
-              <i data-lucide="heart-pulse"></i>
-            </div>
-            <div class="stat-info">
-              <span class="stat-value" id="stat-hem">5</span>
-              <span class="stat-label">Peristiwa HEM</span>
-            </div>
-          </div>
-          <div class="glass-panel stat-card">
-            <div class="stat-icon kokurikulum">
-              <i data-lucide="award"></i>
-            </div>
-            <div class="stat-info">
-              <span class="stat-value" id="stat-kokurikulum">5</span>
-              <span class="stat-label">Peristiwa Kokurikulum</span>
-            </div>
-          </div>
-        </div>
-        
         <!-- Main Dashboard Split Grid -->
         <div class="dashboard-grid">
           
-          <!-- Left Column: Principal Speech -->
+          <!-- Left Column: Announcements -->
           <div class="dashboard-left">
-            <div class="glass-panel speech-card">
-              <div class="speech-header">
-                <div class="speech-avatar">AZ</div>
-                <div class="speech-author">
-                  <h4>Dr. Ahmad bin Zulkifli</h4>
-                  <p>Pengetua Cemerlang, SMK Seri Bintang Utama</p>
-                </div>
-              </div>
-              <blockquote class="speech-text" id="principal-message-text">
-                Memuatkan perutusan pengetua...
-              </blockquote>
-            </div>
-            
-            <!-- Quick Links -->
-            <div class="glass-panel quick-links-card">
-              <h3 class="card-title">Pautan Pantas Guru</h3>
-              <div class="links-grid">
-                <a class="link-btn" onclick="document.querySelector('[data-tab=downloads]').click()">
-                  <i data-lucide="file-spreadsheet" style="stroke: var(--color-kurikulum);"></i> Templat RPH 2026
-                </a>
-                <a class="link-btn" onclick="document.querySelector('[data-tab=downloads]').click()">
-                  <i data-lucide="calendar" style="stroke: var(--color-pentadbiran);"></i> Muat Turun Takwim
-                </a>
-                <a class="link-btn" onclick="document.querySelector('[data-tab=profil]').click(); document.getElementById('search-tab-nav-cal').scrollIntoView({behavior: 'smooth'})">
-                  <i data-lucide="alarm-clock" style="stroke: var(--color-hem);"></i> Takwim Hari Ini
-                </a>
-                <a class="link-btn" onclick="document.querySelector('[data-tab=downloads]').click()">
-                  <i data-lucide="clipboard-list" style="stroke: var(--color-kokurikulum);"></i> Borang CRK Online
-                </a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Right Column: Announcements -->
-          <div class="dashboard-right">
             <div class="glass-panel announcements-card">
               <h3 class="card-title">
                 <span>Pengumuman Terkini</span>
@@ -203,94 +101,34 @@
             </div>
           </div>
           
+          <!-- Right Column: Quick Links -->
+          <div class="dashboard-right">
+            <div class="glass-panel quick-links-card">
+              <h3 class="card-title">Pautan Pantas</h3>
+              <div class="links-grid" style="grid-template-columns: 1fr;">
+                <a class="link-btn" onclick="document.querySelector('[data-tab=profil]').click(); document.getElementById('search-tab-nav-cal').scrollIntoView({behavior: 'smooth'})" style="justify-content: center;">
+                  <i data-lucide="calendar" style="stroke: var(--color-pentadbiran);"></i> Takwim Persekolahan
+                </a>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </section>
       
-      <!-- TAB: PROFIL, CARTA ORGANISASI & TAKWIM -->
+      <!-- TAB: PROFIL & TAKWIM -->
       <section class="tab-panel" id="tab-profil">
         
-        <!-- Profile & Vision/Mission Row -->
-        <div class="profile-grid">
-          
-          <!-- School Profile Info -->
-          <div class="glass-panel profile-card">
-            <div class="profile-logo">SBU</div>
-            <h3>Profil Sekolah</h3>
-            <p>SMK Seri Bintang Utama Kuala Lumpur</p>
-            
-            <div class="school-details-list">
-              <div class="detail-item">
-                <span class="detail-label">Kod Sekolah</span>
-                <span class="detail-value">WEA0206</span>
-              </div>
-              <div class="detail-item">
-                <span class="detail-label">Sesi Persekolahan</span>
-                <span class="detail-value">Pagi & Petang</span>
-              </div>
-              <div class="detail-item">
-                <span class="detail-label">No. Telefon</span>
-                <span class="detail-value">03-92852234</span>
-              </div>
-              <div class="detail-item">
-                <span class="detail-label">Emel Rasmi</span>
-                <span class="detail-value">wea0206@moe.edu.my</span>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Vision & Mission Card -->
-          <div class="glass-panel vision-mission-card">
-            <div class="vision-block">
-              <h4>Visi Sekolah</h4>
-              <p>Pendidikan Berkualiti, Insan Terdidik, Negara Sejahtera.</p>
-            </div>
-            
-            <div class="mission-block">
-              <h4>Misi Sekolah</h4>
-              <p>Melestarikan Sistem Pendidikan Yang Berkualiti Untuk Membangunkan Potensi Individu Bagi Memenuhi Aspirasi Negara.</p>
-            </div>
-          </div>
-          
-        </div>
-
-        <!-- Org Chart Section -->
-        <div class="glass-panel" style="padding: 32px; display: flex; flex-direction: column; gap: 20px;">
-          <h3 class="card-title" style="margin-bottom: 0;">Carta Organisasi Pentadbiran Utama</h3>
-          <div class="org-chart-wrapper">
-            <div class="tree">
-              <ul id="org-chart-tree">
-                <!-- Dynamically Rendered by Recursion in app.js -->
-              </ul>
-            </div>
+        <!-- Profile Banner -->
+        <div class="glass-panel profile-card" style="display: flex; flex-direction: row; align-items: center; justify-content: flex-start; gap: 24px; text-align: left; padding: 24px;">
+          <div class="profile-logo" style="margin-bottom: 0; width: 80px; height: 80px; font-size: 2rem; border-radius: 16px;">SH</div>
+          <div>
+            <h3 style="font-size: 1.5rem; font-weight: 800; margin-bottom: 4px;">SMK Sacred Heart</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem;">Buku Perancangan & Pengurusan Sekolah Sesi Akademik 2026/2027</p>
           </div>
         </div>
 
-        <!-- Staff List Section -->
-        <div class="glass-panel" style="padding: 32px; display: flex; flex-direction: column; gap: 20px;" id="staff-section">
-          <h3 class="card-title" style="margin-bottom: 0;">Direktori Guru & Kakitangan (AKP)</h3>
-          
-          <!-- Search Controls -->
-          <div class="directory-controls">
-            <div class="search-input-wrapper">
-              <i data-lucide="search"></i>
-              <input type="text" id="staff-search" placeholder="Cari nama guru, gred, subjek, atau tugasan..." class="search-input">
-            </div>
-            
-            <select id="staff-dept-filter" class="filter-select">
-              <option value="all">Semua Unit / Jabatan</option>
-              <option value="Pentadbiran">Pentadbiran</option>
-              <option value="Kurikulum">Kurikulum</option>
-              <option value="HEM">HEM</option>
-              <option value="Kokurikulum">Kokurikulum</option>
-              <option value="Sokongan Pentadbiran">Sokongan Pentadbiran (AKP)</option>
-            </select>
-          </div>
-          
-          <!-- Staff Cards Grid Container -->
-          <div class="staff-grid" id="staff-cards-container">
-            <!-- Loaded from app.js -->
-          </div>
-        </div>
+
         
         <!-- School Calendar (Takwim) Section -->
         <div class="glass-panel" style="padding: 32px; display: flex; flex-direction: column; gap: 20px;" id="search-tab-nav-cal">
@@ -359,276 +197,9 @@
         </div>
         
       </section>
+
       
-      <!-- TAB: KURIKULUM -->
-      <section class="tab-panel" id="tab-kurikulum">
-        <div class="glass-panel" style="padding: 32px;">
-          <h3 class="card-title">Panduan Pengurusan Kurikulum 2026</h3>
-          <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 24px; line-height: 1.6;">
-            Pengurusan Kurikulum SMK Seri Bintang Utama memfokuskan peningkatan pencapaian akademik murid melalui pemerkasaan Panitia Mata Pelajaran, Pembelajaran Abad Ke-21 (PAK-21), Pentaksiran Berterusan (PBD), dan program intervensi bersasar.
-          </p>
 
-          <div class="accordion">
-            <div class="accordion-header">
-              <span>Jawatankuasa Induk Kurikulum Sekolah 2026</span>
-              <i data-lucide="chevron-down" class="accordion-icon"></i>
-            </div>
-            <div class="accordion-content">
-              <p>Berikut adalah jawatankuasa induk yang menyelaraskan kurikulum sepanjang tahun akademik 2026:</p>
-              <table style="width: 100%; border-collapse: collapse; margin-top: 16px; font-size: 0.9rem; text-align: left;">
-                <thead>
-                  <tr style="border-bottom: 2px solid var(--border-color); font-weight: bold;">
-                    <th style="padding: 10px;">Jawatan</th>
-                    <th style="padding: 10px;">Nama Pegawai</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 10px; font-weight: 600;">Pengerusi</td>
-                    <td style="padding: 10px;">Dr. Ahmad bin Zulkifli (Pengetua)</td>
-                  </tr>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 10px; font-weight: 600;">Timbalan Pengerusi</td>
-                    <td style="padding: 10px;">Puan Sarah binti Abdullah (PK Pentadbiran)</td>
-                  </tr>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 10px; font-weight: 600;">Naib Pengerusi I</td>
-                    <td style="padding: 10px;">Encik Mohan a/l Ramasamy (PK HEM)</td>
-                  </tr>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 10px; font-weight: 600;">Naib Pengerusi II</td>
-                    <td style="padding: 10px;">Puan Noraini binti Yusof (PK Kokurikulum)</td>
-                  </tr>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 10px; font-weight: 600;">Setiausaha Kurikulum</td>
-                    <td style="padding: 10px;">Cik Nurul Izzah binti Roslan</td>
-                  </tr>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 10px; font-weight: 600;">Penolong Setiausaha</td>
-                    <td style="padding: 10px;">Puan Fatimah binti Mohd Noor</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-          <div class="accordion">
-            <div class="accordion-header">
-              <span>Jadual Peperiksaan & Pentaksiran Akademik 2026</span>
-              <i data-lucide="chevron-down" class="accordion-icon"></i>
-            </div>
-            <div class="accordion-content">
-              <p>Jadual penilaian bertulis utama bagi Sesi Persekolahan 2026/2027 adalah seperti di bawah. Sila patuhi tarikh akhir penyediaan soalan dan key-in markah:</p>
-              <ul style="margin-top: 12px; margin-left: 20px; display: flex; flex-direction: column; gap: 8px;">
-                <li><strong>Ujian Diagnostik 1 (Tingkatan 4 & 5)</strong>: 9 - 13 Mac 2026</li>
-                <li><strong>Peperiksaan Pertengahan Tahun (Tingkatan 1 hingga 5)</strong>: 11 - 22 Mei 2026</li>
-                <li><strong>Ujian Percubaan SPM (Tingkatan 5)</strong>: 7 - 18 September 2026</li>
-                <li><strong>Peperiksaan Akhir Akademik / Pentaksiran Tingkatan 1-4</strong>: 19 - 30 Oktober 2026</li>
-                <li><strong>Pengisian PBD Pertengahan Tahun</strong>: Sebelum 12 Jun 2026</li>
-                <li><strong>Pengisian PBD Akhir Tahun</strong>: Sebelum 13 November 2026</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="accordion">
-            <div class="accordion-header">
-              <span>Ketetapan Waktu Persekolahan & Penghantaran RPH</span>
-              <i data-lucide="chevron-down" class="accordion-icon"></i>
-            </div>
-            <div class="accordion-content">
-              <h5 style="font-weight: 700; margin-bottom: 8px;">1. Kehadiran Guru</h5>
-              <p style="margin-bottom: 12px;">Semua guru wajib merakam kehadiran (punch-card / e-kehadiran) sebelum jam <strong>7:20 pagi</strong> bagi sidang pagi, dan sebelum <strong>12:45 tengah hari</strong> bagi sidang petang.</p>
-              
-              <h5 style="font-weight: 700; margin-bottom: 8px;">2. Penghantaran Fail Persediaan Mengajar (e-RPH)</h5>
-              <p>Rancangan Pengajaran Harian (e-RPH) hendaklah dihantar secara atas talian ke sistem semakan pentadbir pada setiap hari <strong>Jumaat sebelum jam 12:00 tengah hari</strong> untuk minggu persekolahan berikutnya.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      <!-- TAB: HAL EHWAL MURID (HEM) -->
-      <section class="tab-panel" id="tab-hem">
-        <div class="glass-panel" style="padding: 32px;">
-          <h3 class="card-title">Panduan Pengurusan Hal Ehwal Murid (HEM) 2026</h3>
-          <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 24px; line-height: 1.6;">
-            Unit HEM komited melahirkan murid-murid yang mempunyai disiplin yang mantap, berkebajikan, mempunyai sahsiah diri yang tinggi, serta memastikan keselamatan, kesihatan dan keceriaan persekitaran sekolah (3K) sentiasa terjaga.
-          </p>
-
-          <div class="accordion">
-            <div class="accordion-header">
-              <span>Jawatankuasa Induk Hal Ehwal Murid (HEM) 2026</span>
-              <i data-lucide="chevron-down" class="accordion-icon"></i>
-            </div>
-            <div class="accordion-content">
-              <p>Struktur Jawatankuasa HEM yang mentadbir program pembangunan sahsiah dan kebajikan pelajar bagi sesi 2026:</p>
-              <table style="width: 100%; border-collapse: collapse; margin-top: 16px; font-size: 0.9rem; text-align: left;">
-                <thead>
-                  <tr style="border-bottom: 2px solid var(--border-color); font-weight: bold;">
-                    <th style="padding: 10px;">Jawatan</th>
-                    <th style="padding: 10px;">Nama Pegawai</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 10px; font-weight: 600;">Pengerusi</td>
-                    <td style="padding: 10px;">Dr. Ahmad bin Zulkifli (Pengetua)</td>
-                  </tr>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 10px; font-weight: 600;">Timbalan Pengerusi</td>
-                    <td style="padding: 10px;">Encik Mohan a/l Ramasamy (PK HEM)</td>
-                  </tr>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 10px; font-weight: 600;">Naib Pengerusi I</td>
-                    <td style="padding: 10px;">Puan Sarah binti Abdullah (PK Pentadbiran)</td>
-                  </tr>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 10px; font-weight: 600;">Naib Pengerusi II</td>
-                    <td style="padding: 10px;">Puan Noraini binti Yusof (PK Kokurikulum)</td>
-                  </tr>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 10px; font-weight: 600;">Setiausaha HEM</td>
-                    <td style="padding: 10px;">Puan Shalini a/p Subramaniam (Kaunselor)</td>
-                  </tr>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 10px; font-weight: 600;">Ketua Guru Disiplin</td>
-                    <td style="padding: 10px;">Encik Khairul Anuar bin Basri</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-          <div class="accordion">
-            <div class="accordion-header">
-              <span>Pengurusan Skim Bantuan & Kebajikan Murid (SPBT, BAP, Kantin)</span>
-              <i data-lucide="chevron-down" class="accordion-icon"></i>
-            </div>
-            <div class="accordion-content">
-              <h5 style="font-weight: 700; margin-bottom: 8px;">Skim Pinjaman Buku Teks (SPBT)</h5>
-              <p style="margin-bottom: 12px;">Semua guru kelas mestilah memastikan borang SPBT dilengkapkan oleh murid semasa minggu pendaftaran. Buku teks mestilah dibalut dengan plastik lutsinar untuk memanjangkan tempoh hayat penggunaan.</p>
-
-              <h5 style="font-weight: 700; margin-bottom: 8px;">Bantuan Awal Persekolahan (BAP) & Biasiswa</h5>
-              <p style="margin-bottom: 12px;">Pemberian BAP RM150/murid akan diselaraskan di dewan utama mengikut jadual tingkatan masing-masing. Manakala calon penerima Biasiswa (BKP) perlu mengemukakan slip gaji ibu bapa terbaharu sebelum tarikh tutup pemohonan.</p>
-
-              <h5 style="font-weight: 700; margin-bottom: 8px;">Pengurusan Kantin Sekolah</h5>
-              <p>Jawatankuasa Kantin wajib menjalankan audit kebersihan harian kantin sekolah bagi mengelakkan kejadian keracunan makanan.</p>
-            </div>
-          </div>
-
-          <div class="accordion">
-            <div class="accordion-header">
-              <span>Ketetapan Salah Laku & Kod Disiplin Sekolah</span>
-              <i data-lucide="chevron-down" class="accordion-icon"></i>
-            </div>
-            <div class="accordion-content">
-              <p>Semua salah laku disiplin murid hendaklah direkodkan dalam sistem **SSDM KPM** dengan kadar segera. Berikut adalah klasifikasi salah laku utama:</p>
-              <ul style="margin-top: 12px; margin-left: 20px; display: flex; flex-direction: column; gap: 8px;">
-                <li><strong>Salah Laku Berat</strong>: Membawa barang terlarang (vape/rokok), buli, ugut, keluar kawasan sekolah tanpa izin.</li>
-                <li><strong>Salah Laku Sederhana</strong>: Rambut panjang/tidak kemas, berpakaian seragam tidak mengikut standard, ponteng kelas berkala.</li>
-                <li><strong>Salah Laku Ringan</strong>: Datang lambat ke sekolah, bising di dalam kelas, kuku panjang.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      <!-- TAB: KOKURIKULUM -->
-      <section class="tab-panel" id="tab-kokurikulum">
-        <div class="glass-panel" style="padding: 32px;">
-          <h3 class="card-title">Panduan Pengurusan Kokurikulum 2026</h3>
-          <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 24px; line-height: 1.6;">
-            Kokurikulum merupakan pemangkin pembangunan sahsiah, jati diri dan bakat kepimpinan murid di SMK Seri Bintang Utama. Kami menggalakkan penglibatan 100% murid dalam 3 unit utama: Badan Beruniform, Kelab & Persatuan, serta Sukan & Permainan.
-          </p>
-
-          <div class="accordion">
-            <div class="accordion-header">
-              <span>Jawatankuasa Induk Kokurikulum 2026</span>
-              <i data-lucide="chevron-down" class="accordion-icon"></i>
-            </div>
-            <div class="accordion-content">
-              <table style="width: 100%; border-collapse: collapse; margin-top: 16px; font-size: 0.9rem; text-align: left;">
-                <thead>
-                  <tr style="border-bottom: 2px solid var(--border-color); font-weight: bold;">
-                    <th style="padding: 10px;">Jawatan</th>
-                    <th style="padding: 10px;">Nama Pegawai</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 10px; font-weight: 600;">Pengerusi</td>
-                    <td style="padding: 10px;">Dr. Ahmad bin Zulkifli (Pengetua)</td>
-                  </tr>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 10px; font-weight: 600;">Timbalan Pengerusi</td>
-                    <td style="padding: 10px;">Puan Noraini binti Yusof (PK Kokurikulum)</td>
-                  </tr>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 10px; font-weight: 600;">Naib Pengerusi I</td>
-                    <td style="padding: 10px;">Puan Sarah binti Abdullah (PK Pentadbiran)</td>
-                  </tr>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 10px; font-weight: 600;">Naib Pengerusi II</td>
-                    <td style="padding: 10px;">Encik Mohan a/l Ramasamy (PK HEM)</td>
-                  </tr>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 10px; font-weight: 600;">Setiausaha Kokurikulum</td>
-                    <td style="padding: 10px;">Puan Fatimah binti Mohd Noor</td>
-                  </tr>
-                  <tr style="border-bottom: 1px solid var(--border-color);">
-                    <td style="padding: 10px; font-weight: 600;">Setiausaha Sukan</td>
-                    <td style="padding: 10px;">Encik Zulkifli bin Rahman</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-          <div class="accordion">
-            <div class="accordion-header">
-              <span>Kejohanan Sukan Sekolah & Pembahagian Rumah Sukan</span>
-              <i data-lucide="chevron-down" class="accordion-icon"></i>
-            </div>
-            <div class="accordion-content">
-              <h5 style="font-weight: 700; margin-bottom: 8px;">Kejohanan Sukan Tahunan</h5>
-              <p style="margin-bottom: 12px;">Kejohanan Sukan Tahunan Kali Ke-30 dijadualkan pada <strong>24 April 2026</strong> bertempat di Stadium Mini Cheras. Saringan dan latihan sukantara akan bermula awal April pada setiap petang Rabu.</p>
-
-              <h5 style="font-weight: 700; margin-bottom: 8px;">Rumah Sukan</h5>
-              <p>Pembahagian rumah sukan murid dan guru adalah berdasarkan digit terakhir nombor pendaftaran sekolah:</p>
-              <ul style="margin-top: 12px; margin-left: 20px; display: flex; flex-direction: column; gap: 8px;">
-                <li><strong style="color: #ef4444;">Rumah Syahbandar (Merah)</strong>: Guru Penyelaras: Puan Noraini</li>
-                <li><strong style="color: #3b82f6;">Rumah Laksamana (Biru)</strong>: Guru Penyelaras: Encik Lim Wei Kiat</li>
-                <li><strong style="color: #eab308;">Rumah Temenggong (Kuning)</strong>: Guru Penyelaras: Puan Hajah Aminah</li>
-                <li><strong style="color: #22c55e;">Rumah Bendahara (Hijau)</strong>: Guru Penyelaras: Puan Fatimah</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="accordion">
-            <div class="accordion-header">
-              <span>Sistem Penilaian PAJSK</span>
-              <i data-lucide="chevron-down" class="accordion-icon"></i>
-            </div>
-            <div class="accordion-content">
-              <p>Kehadiran murid dalam aktiviti kokurikulum mingguan mestilah mencukupi **12 kali perjumpaan** setahun bagi setiap unit (Sukan, Kelab, Uniform). Rekod kehadiran dan markah penglibatan/jawatan murid mestilah diisi dalam fail PAJSK kelas sebelum <strong>13 November 2026</strong>.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      <!-- TAB: DOWNLOADS -->
-      <section class="tab-panel" id="tab-downloads">
-        <div class="glass-panel" style="padding: 32px;">
-          <h3 class="card-title" style="margin-bottom: 8px;">Pusat Rujukan & Muat Turun</h3>
-          <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 24px;">
-            Muat turun semua dokumen perancangan sekolah, takwim lengkap, templat fail rancangan pengajaran, borang rasmi pentadbiran dan panduan pekeliling di bawah.
-          </p>
-          
-          <!-- Download Cards Grid Container -->
-          <div class="downloads-grid" id="downloads-grid-container">
-            <!-- Dynamically populated from app.js & data.js -->
-          </div>
-        </div>
-      </section>
       
     </main>
   </div>
