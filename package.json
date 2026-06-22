@@ -1,0 +1,15 @@
+{
+  "name": "buku-perancangan-2026",
+  "version": "1.0.0",
+  "description": "Portal Buku Perancangan & Pengurusan Sekolah Sesi 2026/2027",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
